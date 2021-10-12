@@ -1,5 +1,7 @@
 package vboyko.gb.libs.lesson1
 
 interface MainView {
-    fun setButtonText(index: Int, text: String)
+    fun setButtonFirstText(text: String)
+    fun setButtonSecondText(text: String)
+    fun setButtonThirdText(text: String)
 }
